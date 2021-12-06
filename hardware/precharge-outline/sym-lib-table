@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name SUFST_Lib)(type Legacy)(uri ${KIPRJMOD}/../../kicad-library/SUFST_Lib.lib)(options "")(descr ""))
-)
