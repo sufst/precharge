@@ -602,8 +602,8 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 3abb1114-c8a7-4ab7-94b9-34662640beb6)
   )
-  (text "Current limitations:\n- If the precharge is too fast,\n  it is possible that the high AIR\n  will be turned on for a very short\n  period, before the fault is detected\n\n- Testing of the mechanical state of\n  the precharge relay is still to be\n  implemented"
-    (at 245.745 39.37 0)
+  (text "Current limitations:\n- If the precharge is too fast,\n  it is possible that the high AIR\n  will be turned on for a very short\n  period, before the fault is detected\n\n- Testing of the mechanical state of\n  the precharge relay is still to be\n  implemented\n\n- The 12V must be turned on before\n  the shutdown circuit is closed\n  (with enough time for the systems\n  to initialise)"
+    (at 245.11 50.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4bc803c7-56d2-46fa-9c9e-e70f6cbebdb4)
   )
@@ -1041,6 +1041,9 @@
     (path "/14ca1bc4-c43d-4977-ae30-fdb9b167476c"
       (reference "R?") (unit 1) (value "R") (footprint "")
     )
+    (path "/86ebb052-21e6-4e49-945d-049a70338ab6/15dfdd0f-8f86-48e1-bef4-033654d9612f"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
     (path "/17b21d20-64c8-472f-8c8f-00c20b37266b"
       (reference "R?") (unit 1) (value "R") (footprint "")
     )
@@ -1157,6 +1160,9 @@
     )
     (path "/a25b3faf-d95a-49ad-9b40-7c3f8d869233/5443eb0f-490c-4746-b7de-5dfbea8f603c"
       (reference "U?") (unit 4) (value "40106") (footprint "")
+    )
+    (path "/86ebb052-21e6-4e49-945d-049a70338ab6/741ade0e-280d-4ca1-95c1-c006eda937d0"
+      (reference "U?") (unit 4) (value "LM339") (footprint "")
     )
     (path "/a25b3faf-d95a-49ad-9b40-7c3f8d869233/3257ca68-ab5f-4c77-a85e-9fb6ecad8b0d"
       (reference "U?") (unit 5) (value "LM339") (footprint "")
