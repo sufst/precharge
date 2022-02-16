@@ -18,15 +18,15 @@ Joe Pater <joe@jpater.com>
 """
 
 
-r1 = 2720e3
+r1 = 2718e3
 
 vin = 600
 vcc = 12
 
-k = 33e3 / (2720e3 + 33e3)
+k = 33e3 / (2718e3 + 33e3)
 
-low = 0.95
-high = 0.96
+low = 0.955
+high = 0.965
 
 r3 = (r1 * vcc) / ((high/low - 1) * vin)
 r2 = 1 / (1 / (low * k * r1) - 1 / r1 - 1 / r3)
