@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Precharge LV Side")
+  )
+
   (lib_symbols
     (symbol "4xxx:40106" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)
@@ -1811,6 +1815,8 @@
   )
 
   (no_connect (at 99.695 110.49) (uuid 05c97792-56cf-4725-bbc4-7d6d131cb0ae))
+  (no_connect (at 75.565 43.18) (uuid 0ec277ab-bd42-4f1a-9fcd-c9e2ceec5eea))
+  (no_connect (at 75.565 73.025) (uuid 0ec277ab-bd42-4f1a-9fcd-c9e2ceec5eeb))
   (no_connect (at 57.785 107.95) (uuid 9130ddc2-5a0e-40af-a396-8ae8b5cfdae0))
   (no_connect (at 37.465 175.895) (uuid ae1b31cc-c99d-4407-b554-83620956fd1f))
   (no_connect (at 56.515 175.895) (uuid c7a49dcb-2c8f-400f-b462-47b571aabd07))
@@ -2712,7 +2718,7 @@
     (uuid 0eaa663a-c98d-44db-8bf5-70ab2ac22caf)
     (property "Reference" "K2" (id 0) (at 65.405 97.155 90))
     (property "Value" "G5Q-1EU DC12" (id 1) (at 65.405 99.06 90))
-    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1" (id 2) (at 66.675 99.06 0)
+    (property "Footprint" "footprints:PCH-112L2MH" (id 2) (at 66.675 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" (id 3) (at 65.405 110.49 0)
@@ -2799,7 +2805,7 @@
     (uuid 4e001036-2180-4366-a0f5-0b8745896e4b)
     (property "Reference" "K3" (id 0) (at 107.315 99.695 90))
     (property "Value" "G5Q-1EU DC12" (id 1) (at 107.315 101.6 90))
-    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1" (id 2) (at 108.585 101.6 0)
+    (property "Footprint" "footprints:PCH-112L2MH" (id 2) (at 108.585 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" (id 3) (at 107.315 113.03 0)
